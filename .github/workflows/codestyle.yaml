@@ -23,9 +23,6 @@ jobs:
       - name: Setting the development environment
         run: sed -i 's/production/development/' .env
 
-      - name: Setting the development environment
-        run: sed -i 's/production/development/' .env
-
       - name: Cleanup project
         run: make clean
 
