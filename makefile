@@ -42,7 +42,7 @@ publish-npmjs:
 
 github-tag:
 	git tag -a v$(PACKAGE_VERSION) -m "update to v$(PACKAGE_VERSION)"
-	git push origin $(PACKAGE_VERSION)
+	git push origin v$(PACKAGE_VERSION)
 
 types:
 	docker-compose run $(DOCKER_COMPOSE_RUN_OPTIONS) yarn types
