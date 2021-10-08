@@ -1,6 +1,6 @@
 {
     "name": "@benjaminnoufel/http",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "This is a library for handling HTTP requests on the client side.",
     "license": "MIT",
     "lib": "lib/Http.common.js",
@@ -10,6 +10,17 @@
     "files": [
         "lib"
     ],
+    "author": {
+        "name": "Benjamin Noufel",
+        "url": "https://github.com/benjaminnoufel"
+    },
+    "bugs": {
+        "url": "https://github.com/benjaminnoufel/http/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benjaminnoufel/http.git"
+    },
     "private": false,
     "scripts": {
         "build": "rollup --config rollup.config.ts",
