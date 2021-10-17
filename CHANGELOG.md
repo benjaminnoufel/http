@@ -2,9 +2,26 @@
 
 ## Summary
 
+- [`0.1.4`](#014)
 - [`0.1.3`](#013)
 - [`0.1.2`](#012)
 - [`0.1.0`](#010)
+
+## 0.1.4
+
+*2021-10-17*
+
+### Major changes
+
+None.
+
+### Minor changes
+
+- Fix examples
+
+### Bug & security fixes
+
+None.
 
 ## 0.1.3
 
