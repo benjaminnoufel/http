@@ -1,8 +1,9 @@
 {
     "name": "@benjaminnoufel/http",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "This is a library for handling HTTP requests on the client side.",
     "license": "MIT",
+    "main": "lib/Http.common.js",
     "lib": "lib/Http.common.js",
     "module": "lib/Http.module.js",
     "browser": "lib/Http.browser.js",
