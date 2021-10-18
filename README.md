@@ -2,11 +2,11 @@
 
 This is a library for handling HTTP requests on the client side.
 
-![Code Style CI](https://github.com/benjaminnoufel/http/workflows/Code%20Style%20CI/badge.svg)
-![Test CI](https://github.com/benjaminnoufel/http/workflows/Test%20CI/badge.svg)
-![Package](https://github.com/benjaminnoufel/http/workflows/Package/badge.svg)
-![Package npmjs](https://github.com/benjaminnoufel/http/workflows/Package%20npmjs/badge.svg)
-
+![Code Style CI](https://github.com/benjaminnoufel/http/workflows/Code%20Style%20CI/badge.svg?branch=latest)
+![Test CI](https://github.com/benjaminnoufel/http/workflows/Test%20CI/badge.svg?branch=latest)
+![Package](https://github.com/benjaminnoufel/http/workflows/Package/badge.svg?branch=latest)
+![Package npmjs](https://github.com/benjaminnoufel/http/workflows/Package%20npmjs/badge.svg?branch=latest
+)
 ## Summary
 
 - [Requirements](#requirements)
