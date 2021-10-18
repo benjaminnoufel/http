@@ -2,12 +2,30 @@
 
 ## Summary
 
-- [`0.1.4`](#014)
-- [`0.1.3`](#013)
-- [`0.1.2`](#012)
-- [`0.1.0`](#010)
+- [`1.0.6`](#106)
+- [`1.0.5`](#105)
+- [`1.0.3`](#103)
+- [`1.0.2`](#102)
+- [`1.0.0`](#100)
 
-## 0.1.4
+## 1.0.6
+
+*2021-10-18*
+
+### Major changes
+
+None.
+
+### Minor changes
+
+- See workflow status for latest branch only
+- Ignore coverage folder for eslint
+
+### Bug & security fixes
+
+None.
+
+## 1.0.5
 
 *2021-10-17*
 
@@ -17,13 +35,14 @@ None.
 
 ### Minor changes
 
-- Fix examples
+- Fix examples (1.0.4)
+- Adding "main" on package.json
 
 ### Bug & security fixes
 
 None.
 
-## 0.1.3
+## 1.0.3
 
 *2021-10-07*
 
@@ -39,7 +58,7 @@ None.
 
 None.
 
-## 0.1.2
+## 1.0.2
 
 *2021-10-07*
 
@@ -56,7 +75,7 @@ None.
 None.
 
 
-## 0.1.0
+## 1.0.0
 
 *2021-10-07*
 
