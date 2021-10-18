@@ -4,3 +4,4 @@ package.json
 .eslintrc.json
 jest.config.js
 examples/*
+/coverage
