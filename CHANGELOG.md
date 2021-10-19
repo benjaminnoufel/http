@@ -2,11 +2,28 @@
 
 ## Summary
 
+- [`1.1.0`](#110)
 - [`1.0.6`](#106)
 - [`1.0.5`](#105)
 - [`1.0.3`](#103)
 - [`1.0.2`](#102)
 - [`1.0.0`](#100)
+
+## 1.1.0
+
+*2021-10-19*
+
+### Major changes
+
+- Remove for the moment browser and module package.
+
+### Minor changes
+
+None.
+
+### Bug & security fixes
+
+None.
 
 ## 1.0.6
 
