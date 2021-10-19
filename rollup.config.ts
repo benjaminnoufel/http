@@ -4,14 +4,14 @@ import {terser} from "rollup-plugin-terser";
 import typescript from "@rollup/plugin-typescript";
 
 export default {
-    input: "src/Http.ts",
+    input: resolve("src", "Http.ts"),
     plugins: [
         remove({targets: resolve("lib", "*")}),
         typescript(),
         terser()
     ],
     output: {
-        file: "dist/Http.js",
+        file: resolve("lib", "Http.js"),
         format: "cjs"
     }
 };
