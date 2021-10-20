@@ -8,7 +8,6 @@ export class ValidatorError extends Error {
     }
 }
 
-
 export class Http {
     private _body?: string;
 
@@ -59,7 +58,11 @@ export class Http {
     public requestInit(options: RequestInit): this {
         this._requestInit = {
             ...this._requestInit,
-            ...options
+            ...options,
+            headers: {
+                ...this._headers,
+                ...options.headers
+            }
         };
         return this;
     }
