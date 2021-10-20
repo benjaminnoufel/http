@@ -2,12 +2,30 @@
 
 ## Summary
 
+- [`1.1.1`](#111)
 - [`1.1.0`](#110)
 - [`1.0.6`](#106)
 - [`1.0.5`](#105)
 - [`1.0.3`](#103)
 - [`1.0.2`](#102)
 - [`1.0.0`](#100)
+
+## 1.1.1
+
+*2021-10-20*
+
+### Major changes
+
+None.
+
+### Minor changes
+
+- Keep old headers if you adding more RequestOptions.
+
+### Bug & security fixes
+
+None.
+
 
 ## 1.1.0
 
