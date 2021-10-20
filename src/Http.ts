@@ -55,13 +55,13 @@ export class Http {
      * Adding RequestInitOption for fetch
      * @param {RequestInit} options
      */
-    public requestInit(options: RequestInit): this {
+    public requestInit(options?: RequestInit): this {
         this._requestInit = {
             ...this._requestInit,
             ...options,
             headers: {
                 ...this._headers,
-                ...options.headers
+                ...options?.headers
             }
         };
         return this;
