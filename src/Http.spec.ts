@@ -279,11 +279,12 @@ describe("http", (): void => {
 
             const expectation: Record<string, any> = {
                 _credentials: "same-origin",
-                _headers: {},
                 _body: undefined,
+                _headers: {},
                 _method: "GET",
                 _requestInit: {
-                    method: "PUT"
+                    method: "PUT",
+                    headers: {}
                 },
                 _mode: "same-origin"
             };
@@ -301,11 +302,49 @@ describe("http", (): void => {
 
             const expectation: Record<string, any> = {
                 _credentials: credentials,
-                _headers: {},
                 _body: undefined,
+                _headers: {},
                 _method: "GET",
                 _requestInit: {
-                    method: "PUT"
+                    method: "PUT",
+                    headers: {}
+                },
+                _mode: "same-origin"
+            };
+
+            expect(JSON.stringify(result)).toStrictEqual(JSON.stringify(expectation));
+        });
+
+        it("should create an Http instance with request init with header and header set normally", (): void => {
+            expect.assertions(1);
+
+            const credentials: RequestCredentials = "omit";
+            const result: Http = new Http()
+                .credentials(credentials)
+                .header("Accept", "application/json")
+                .header("Content-Type", "application/json")
+                .requestInit({
+                    method: "PUT",
+                    headers: {
+                        "Accept-language": "en"
+                    }
+                });
+
+            const expectation: Record<string, any> = {
+                _credentials: credentials,
+                _body: undefined,
+                _headers: {
+                    "Accept": "application/json",
+                    "Content-Type": "application/json"
+                },
+                _method: "GET",
+                _requestInit: {
+                    method: "PUT",
+                    headers: {
+                        "Accept": "application/json",
+                        "Content-Type": "application/json",
+                        "Accept-language": "en"
+                    }
                 },
                 _mode: "same-origin"
             };
