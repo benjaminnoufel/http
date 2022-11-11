@@ -228,6 +228,9 @@ export class Http {
         }).then(async (response: Response): Promise<JSON> => {
             const contentType = response.headers.get("content-type");
             if (this.isJsonFormat(contentType)) {
+                if (204 === response.status) {
+                    return JSON.parse("{}") as JSON;
+                }
                 if (response.ok) {
                     return response.clone().json();
                 }
