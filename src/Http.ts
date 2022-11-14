@@ -89,7 +89,7 @@ export class Http {
         }
         this._headers = {
             ...this._headers,
-            [property]: value.toLowerCase()
+            [property]: value
         };
 
         return this;
